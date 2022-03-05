@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(191, 208, 230);
+    margin: 0px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1b365f, #406cad);  
+height: 50px;
+width: 100%;
+}
+
+.navbar a{
+    float: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    border-style: none;
+    color: rgb(221, 220, 200);
+    margin-top: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgb(140, 175, 206);
+    color: rgb(150, 127, 255);
+}
+
+
+#navegation {
+    float: right;
+   display: flex;
+   flex-direction: row;
+   padding: 10px 10px ;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 35%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+ 
+
